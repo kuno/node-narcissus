@@ -40,8 +40,10 @@
  * the terms of any one of the MPL, the GPL or the LGPL.
  *
  * ***** END LICENSE BLOCK ***** */
+require("./lib/definitions");
+require("./lib/lexer");
+require("./lib/parser");
+require("./lib/decompiler");
+//require('./lib/jsexec.js');
 
-exports.definitions = require("./lib/definitions");
-exports.lexer = require("./lib/lexer");
-exports.parser = require("./lib/parser");
-exports.decompiler = require("./lib/decompiler");
+module.exports = Narcissus;
