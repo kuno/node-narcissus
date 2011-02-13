@@ -1,7 +1,7 @@
 {
-  "name": "narcissus",
+  "name": "node-narcissus",
   "version": "0.0.1",
-  "author": "Mozilla",
+  "author": "kuno",
   "directories": {"lib": "./lib"},
   "main": "main.js"
 }
